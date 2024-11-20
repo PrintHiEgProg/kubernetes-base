@@ -3,6 +3,8 @@
 
 ```sh
 cd kubernetes-base
+'''venv activate'''
+pip install -r requirements.txt
 python main.py
 python test-api1.py
 python test-api2.py
